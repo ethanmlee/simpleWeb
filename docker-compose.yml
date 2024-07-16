@@ -3,3 +3,5 @@ services:
     image: ${IMAGE_NAME}:latest
     ports:
       - "3000:80"
+    volumes:
+      - "./data:/usr/share/nginx/html"
