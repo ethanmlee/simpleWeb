@@ -1,5 +1,4 @@
 include .env
-#export ${shell sed 's/=.*//' .env}
 
 build: 
 	@echo "Build docker image..."
